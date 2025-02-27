@@ -1,7 +1,33 @@
+
+/* Color scheme
+#FFF2F2 - Important content, bg, buttons
+#A9B5DF - Header bg, links, secondary texts
+#7886C7 - Main buttons, emphasis
+#2D336B - More contrast
+ */
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.navbar {
+  background-color: #2D336B !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    color: #FFF2F2  !important;
+    border-radius: 10px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    transition: background-color 0.8s ease, font-size 0.8s;
+    font-size: 20px;
   }
 
 .nav-link:hover{
-    color:blue !important;
+    background-color:#A9B5DF !important;
+    border-radius: 10px;
+    font-size: 24px;
 }
